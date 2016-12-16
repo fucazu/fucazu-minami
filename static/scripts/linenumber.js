@@ -22,4 +22,16 @@
             }
         }
     }
+
+    Array.from(document.getElementsByClassName("methods")).forEach(function (element) {
+        var pai = element.parentNode,
+            urlLink = pai.childNodes[0].href,
+            local = document.location;
+        var origin = local.origin;
+        if (origin + local.pathname === pai.childNodes[0].href) {
+            return;
+        }
+        pai.childNodes[1].className += " esconde-subitens";
+    });
+
 })();
