@@ -599,3 +599,7 @@ dl.param-type {
     width: 100%;
   }
 }
+
+.esconde-subitens {
+    display: none;
+}
