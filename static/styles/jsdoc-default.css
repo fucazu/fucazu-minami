@@ -27,7 +27,7 @@ a:active {
 }
 
 a:hover {
-  text-decoration: underline
+  text-decoration: none
 }
 
 p, ul, ol, blockquote {
@@ -313,7 +313,7 @@ footer {
   display: block;
   margin: 0 30px;
   background-color: #fff;
-  color: #4D4E53;
+  color: #c82829;
 }
 
 .prettyprint > code {
@@ -602,4 +602,8 @@ dl.param-type {
 
 .esconde-subitens {
     display: none;
+}
+
+code {
+  color: #c82829;
 }
