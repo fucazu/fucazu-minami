@@ -370,7 +370,7 @@ footer {
 }
 
 .params .name, .props .name, .name code {
-   color: #4D4E53;
+   color: #c82829;
    font-family: Consolas, Monaco, 'Andale Mono', monospace;
    font-size: 100%;
 }
