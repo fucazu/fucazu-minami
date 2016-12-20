@@ -13,7 +13,7 @@ A clean, responsive documentation template theme for JSDoc 3.
 ## Install
 
 ```bash
-$ npm install --save-dev minami
+$ npm install --save-dev git+https://github.com/fucazu/minami.git
 ```
 
 ## Usage
