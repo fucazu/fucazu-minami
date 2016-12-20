@@ -1,8 +1,6 @@
-# Minami
+# Fucazu-minami
 
-A clean, responsive documentation template theme for JSDoc 3.
-
-![Minami Screenshot](http://puu.sh/gOyNe/66c3adcb97.png)
+A Dark theme for JSDoc 3. Based on Minami
 
 ## Uses
 
@@ -13,7 +11,7 @@ A clean, responsive documentation template theme for JSDoc 3.
 ## Install
 
 ```bash
-$ npm install --save-dev git+https://github.com/fucazu/minami.git
+$ npm install --save-dev fucazu-minami
 ```
 
 ## Usage
@@ -21,7 +19,7 @@ $ npm install --save-dev git+https://github.com/fucazu/minami.git
 Clone repository to your designated `jsdoc` template directory, then:
 
 ```bash
-$ jsdoc entry-file.js -t path/to/minami
+$ jsdoc entry-file.js -t path/to/fucazu-minami
 ```
 
 ### Node.js Dependency
