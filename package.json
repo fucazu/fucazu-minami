@@ -1,6 +1,6 @@
 {
   "name": "fucazu-minami",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "JSDoc 3 Template / Theme based on Minami",
   "main": "publish.js",
   "scripts": {
