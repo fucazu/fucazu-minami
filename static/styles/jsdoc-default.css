@@ -167,7 +167,7 @@ nav ul a:active {
 
 nav ul a:hover,
 nav ul a:active {
-  color: hsl(200, 100%, 43%);
+  color: hsl(200, 100%, 43%) !important;
   text-decoration: none;
 }
 
@@ -176,7 +176,7 @@ nav > ul {
 }
 
 nav > ul > li > a {
-  color: #36a3fd;
+  color: #aaa;
 }
 
 nav ul ul {
@@ -184,7 +184,7 @@ nav ul ul {
 }
 
 nav ul ul a {
-  color: #36a3fd;
+  color: #aaa;
   border-left: 1px solid hsl(207, 10%, 86%);
 }
 
