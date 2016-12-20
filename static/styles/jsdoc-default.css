@@ -185,7 +185,7 @@ nav ul ul {
 
 nav ul ul a {
   color: #aaa;
-  border-left: 1px solid hsl(207, 10%, 86%);
+  border-left: 2px solid #6694af;
 }
 
 nav ul ul a,
@@ -596,4 +596,8 @@ dl.param-type {
 
 code {
   color: #c82829;
+}
+
+.makeit-blue {
+ color: #0095dd; 
 }
