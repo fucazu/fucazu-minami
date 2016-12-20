@@ -29,7 +29,7 @@
             local = document.location;
         var origin = local.origin;
         if (origin + local.pathname === pai.childNodes[0].href) {
-            pai.childNodes[1].className += " makeit-blue";
+            pai.childNodes[0].className = "makeit-blue";
             return;
         }
         pai.childNodes[1].className += " esconde-subitens";
