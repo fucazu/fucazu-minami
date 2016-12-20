@@ -1,16 +1,16 @@
 {
-  "name": "minami",
+  "name": "fucazu-minami",
   "version": "1.1.4",
-  "description": "Clean and minimal JSDoc 3 Template / Theme",
+  "description": "JSDoc 3 Template / Theme based on Minami",
   "main": "publish.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Nijikokun/minami.git"
+    "url": "https://github.com/fucazu/minami.git"
   },
-  "author": "Nijiko Yonskai <nijikokun@gmail.com>",
+  "author": "Rafael Sanches <fucazu@gmail.com>",
   "licenses": [
     {
       "type": "Apache-2.0",
@@ -18,7 +18,7 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/Nijikokun/minami/issues"
+    "url": "https://github.com/fucazu/minami/issues"
   },
-  "homepage": "https://github.com/Nijikokun/minami"
+  "homepage": "https://github.com/fucazu/minami"
 }

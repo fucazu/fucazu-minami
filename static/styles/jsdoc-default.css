@@ -1,7 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 * {
-  box-sizing: border-box
+  box-sizing: border-box;
+  background-color: #292929;
+  color: white;
 }
 
 html, body {
@@ -10,8 +12,6 @@ html, body {
 }
 
 body {
-  color: #4d4e53;
-  background-color: white;
   margin: 0 auto;
   padding: 0 20px;
 
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #000;
+  color: whitesmoke;
   font-weight: 400;
   margin: 0;
 }
@@ -68,7 +68,6 @@ h3 {
 h4 {
   font-size: 18px;
   margin: 1em 0 .2em;
-  color: #4d4e53;
 }
 
 h5, .container-overview .subsection-title {
@@ -114,7 +113,6 @@ header {
 
 section {
   display: block;
-  background-color: #fff;
   padding: 0 30px;
 }
 
@@ -312,7 +310,6 @@ footer {
   line-height: 18px;
   display: block;
   margin: 0 30px;
-  background-color: #fff;
   color: #c82829;
 }
 
@@ -388,12 +385,10 @@ footer {
 }
 
 .params thead tr, .props thead tr {
-   background-color: #fff;
    font-weight: bold;
 }
 
 .params .params thead tr, .props .props thead tr {
-   background-color: #fff;
    font-weight: bold;
 }
 
