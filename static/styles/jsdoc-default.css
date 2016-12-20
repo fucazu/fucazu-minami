@@ -3,7 +3,7 @@
 * {
   box-sizing: border-box;
   background-color: #292929;
-  color: white;
+  color: whitesmoke;
 }
 
 html, body {
@@ -131,7 +131,6 @@ nav {
   float: left;
   display: block;
   width: 250px;
-  background: #fff;
   overflow: auto;
   position: fixed;
   height: 100%;
@@ -146,7 +145,6 @@ nav h3 {
   line-height: 24px;
   margin: 15px 0 10px;
   padding: 0;
-  color: #000;
 }
 
 nav ul {
@@ -178,7 +176,7 @@ nav > ul {
 }
 
 nav > ul > li > a {
-  color: #000;
+  color: #36a3fd;
 }
 
 nav ul ul {
@@ -186,7 +184,7 @@ nav ul ul {
 }
 
 nav ul ul a {
-  color: hsl(207, 1%, 60%);
+  color: #36a3fd;
   border-left: 1px solid hsl(207, 10%, 86%);
 }
 
@@ -499,13 +497,11 @@ dl.param-type {
 .nav-trigger:checked + label.plus .navicon:before,
 .nav-trigger:checked + label.x .navicon:before {
   transform: rotate(-45deg);
-  background: #FFF;
 }
 
 .nav-trigger:checked + label.plus .navicon:after,
 .nav-trigger:checked + label.x .navicon:after {
   transform: rotate(45deg);
-  background: #FFF;
 }
 
 .nav-trigger:checked + label.plus {
@@ -545,7 +541,6 @@ dl.param-type {
   }
 
   nav {
-    background: #FFF;
     width: 250px;
     height: 100%;
     position: fixed;
