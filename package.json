@@ -1,7 +1,7 @@
 {
   "name": "fucazu-minami",
-  "version": "1.1.4",
-  "description": "JSDoc 3 Template / Theme based on Minami",
+  "version": "1.1.5",
+  "description": "JSDoc 3 Template / Theme Dark based on Minami",
   "main": "publish.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

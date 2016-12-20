@@ -3,7 +3,7 @@
 * {
   box-sizing: border-box;
   background-color: #292929;
-  color: white;
+  color: whitesmoke;
 }
 
 html, body {
@@ -131,7 +131,6 @@ nav {
   float: left;
   display: block;
   width: 250px;
-  background: #fff;
   overflow: auto;
   position: fixed;
   height: 100%;
@@ -146,7 +145,6 @@ nav h3 {
   line-height: 24px;
   margin: 15px 0 10px;
   padding: 0;
-  color: #000;
 }
 
 nav ul {
@@ -169,7 +167,7 @@ nav ul a:active {
 
 nav ul a:hover,
 nav ul a:active {
-  color: hsl(200, 100%, 43%);
+  color: hsl(200, 100%, 43%) !important;
   text-decoration: none;
 }
 
@@ -178,7 +176,7 @@ nav > ul {
 }
 
 nav > ul > li > a {
-  color: #000;
+  color: #aaa;
 }
 
 nav ul ul {
@@ -186,8 +184,8 @@ nav ul ul {
 }
 
 nav ul ul a {
-  color: hsl(207, 1%, 60%);
-  border-left: 1px solid hsl(207, 10%, 86%);
+  color: #aaa;
+  border-left: 2px solid #6694af;
 }
 
 nav ul ul a,
@@ -309,7 +307,7 @@ footer {
   font-size: 100%;
   line-height: 18px;
   display: block;
-  margin: 0 30px;
+  margin: 0;
   color: #c82829;
 }
 
@@ -425,6 +423,7 @@ dl.param-type {
   display: none;
   position: relative;
   padding: 2.0625rem 1.5rem;
+  background-color: #0095dd;
   transition: 0.25s;
   cursor: pointer;
   user-select: none;
@@ -452,7 +451,7 @@ dl.param-type {
   position: relative;
   width: 2.5em;
   height: .3125rem;
-  background: #000;
+  background: #fff;
   transition: 0.3s;
   border-radius: 2.5rem;
 }
@@ -461,7 +460,7 @@ dl.param-type {
   content: "";
   height: .3125rem;
   width: 2.5rem;
-  background: #000;
+  background: #fff;
   position: absolute;
   z-index: -1;
   transition: 0.3s 0.25s;
@@ -499,13 +498,11 @@ dl.param-type {
 .nav-trigger:checked + label.plus .navicon:before,
 .nav-trigger:checked + label.x .navicon:before {
   transform: rotate(-45deg);
-  background: #FFF;
 }
 
 .nav-trigger:checked + label.plus .navicon:after,
 .nav-trigger:checked + label.x .navicon:after {
   transform: rotate(45deg);
-  background: #FFF;
 }
 
 .nav-trigger:checked + label.plus {
@@ -545,7 +542,6 @@ dl.param-type {
   }
 
   nav {
-    background: #FFF;
     width: 250px;
     height: 100%;
     position: fixed;
@@ -559,6 +555,7 @@ dl.param-type {
   }
 
   .navicon-button {
+    background-color: #0095dd;
     display: inline-block;
     position: fixed;
     top: 1.5em;
@@ -601,4 +598,8 @@ dl.param-type {
 
 code {
   color: #c82829;
+}
+
+.makeit-blue {
+ color: #0095dd; 
 }
